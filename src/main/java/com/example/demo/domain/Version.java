@@ -12,8 +12,6 @@ public class Version {
         major = 1;
         minor = 0;
         patch = 0;
-
-
     }
 
     public static String getVerStr() {
