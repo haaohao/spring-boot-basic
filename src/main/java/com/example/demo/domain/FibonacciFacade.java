@@ -2,7 +2,11 @@ package com.example.demo.domain;
 
 public class FibonacciFacade {
 
+  private FibonacciFacade() {
+  }
+
   public static int getFibonacci(int number) {
+
     if (number <= 2) {
       return 1;
     } else {
