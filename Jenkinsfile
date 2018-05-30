@@ -4,7 +4,7 @@ pipeline {
     environment {
         NameSpace='haaohao'
         WebServer='172.31.12.139'
-        port='8020'
+        port='9999'
     }
 
     stages {
